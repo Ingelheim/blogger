@@ -3,7 +3,8 @@
 
 <form action="/tag"  method="get" class="selector">
 <select name="tag" onchange='this.form.submit()'>
-  <% @tag.each do |tag| %>
+<option value="<%= @tag_id %>" type="submit" selected><%= Tag.find(@tag_id).name %></option>
+<% @tag.each do |tag| %>
 <option value="<%= tag.id %>" type="submit"><%= tag.name %></option>
 <% end%>
 </select>
@@ -11,7 +12,6 @@
 </form></h2>
 </div>
 
-<% @posts = @posts.shuffle %>
-
 <%= erb :_blog_post_partial %>
+
 

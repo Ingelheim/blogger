@@ -98,6 +98,11 @@ namespace :db do
     exec("dropdb #{DB_NAME}")
   end
 
+  desc "Databse console"
+  task :console do
+    exec "psql -d #{DB_NAME}"
+  end
+
   desc "Migrate the database (options: VERSION=x, VERBOSE=false, SCOPE=blog)."
   task :migrate do
     ActiveRecord::Migrator.migrations_paths << File.dirname(__FILE__) + 'db/migrate'

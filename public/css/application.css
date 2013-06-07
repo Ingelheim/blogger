@@ -1,9 +1,390 @@
+.top-nav h1 {
+    font-size: 25px;
+    font-family: sans-serif;
+    display: inline;
+    float: left;
+/*    margin-bottom: 0px; */
+}
+ 
+ul.nav {
+    margin-bottom: 0px;
+    margin-top: 35px;
+}
+ 
+.top-nav {
+    width: 100%;
+    position: fixed;
+    background-color: #04536B;
+    color: white;
+}
+ 
+body    {
+    margin: 0px;
+}
+ 
+.top-nav ul {
+    list-style: none;
+    float: right;
+}
+ 
+.top-nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 1em;
+}
+ 
+.top-nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+ 
 .container {
-  margin: 20px auto;
-  width: 600px;
-  padding: 0px 20px 20px 20px;
-  border: 1px dotted black;
+    margin: 0px auto;
+    margin-top: 50px;
+    width: 100%;
+    float: left;
 }
-th {
-  text-align: left;
+
+.selector {
+  display: inline;
+  /*float: left;*/
+  /*margin-left: 200px;*/
 }
+ 
+p {
+    font-family: Georgia, serif;
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 8px;
+}
+ 
+h1, h2, h3 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+ 
+
+h1 {
+  width: 100%;
+  display: inline;
+  margin-left: 30px;
+  float: left
+} 
+ 
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 48px;
+    padding-left: 23px;
+    font-weight: normal;
+}
+ 
+.content {
+    margin-top: 0px;
+    padding-top: 70px;
+}
+
+.beer {
+  border: 5px solid #252924;
+  padding: 3px;
+  /*float: left;*/
+  /*display: inline;*/
+}
+
+.main {
+  /*display: inline;*/
+  float: left;
+  width: 100%;
+}
+
+.germany {
+  float: left;
+  margin-left: 20px;
+}
+
+.text {
+  font-size: 17px;
+  font-family: sans-serif, Arial, Helvetica;
+  text-align: center;
+  margin-top: 0px;
+  font-weight: bold;
+}
+
+.germany a {
+  text-decoration: none;
+  color: black;
+}
+
+h1 a {
+  text-decoration: none;
+  color: white;
+}
+
+
+.dude {
+  float: left;
+  display: inline;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: 2px 2px 2px 2px;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    outline: none;
+    background: transparent url("http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png") no-repeat right center;
+}
+
+.discover {
+  margin-left: 10px;
+}
+
+.car {
+  width: 20%;
+  left: 50%;
+  position: fixed;
+  padding-top: 150px;
+}
+
+.posts {
+  clear: both;
+  width: 50%;
+  padding-top: 20px;
+  /*margin-top: 100px;*/
+/*  border: 1px solid black;*/
+  margin-left: 25%;
+  margin-bottom: 20px;
+  padding-top: 5px;
+  padding-left: 5px;
+  background-color: #E9F2F5;
+}
+
+/*img {
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:600px;
+    height:500px;
+}*/
+
+.pics { width: 500px; height: 300px; overflow: hidden;
+ display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px; }
+
+.pics img { width: 100%; 
+  margin-bottom: 0px;
+}
+
+.blog-text {
+  margin-top: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.blog-title {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 20px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+
+.edit {
+  font-size: 10px;
+  margin-top: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.edit a {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+
+.change_title {
+  display: block;
+  font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border: none;
+    background-color: #E9F2F5;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+  margin-bottom: 30px;
+  outline: none;
+  width: 100%;
+  width: 300px;  
+}
+
+.change_text {
+  margin-top: 5px;
+  font-family: Helvetica, Arial, sans-serif;
+  border: none;
+    background-color: #E9F2F5;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    outline: none;
+}
+
+.iterate_post {
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+}
+
+.exit {
+  width: 20px;
+  height: 20px;
+}
+
+.edit {
+  width: 20px;
+  height: 20px;
+  margin-left: 5px;
+  margin-top: 2px;
+}
+
+#hidden {
+  display: none;
+}
+
+.add {
+  margin-top: 200px;
+}
+
+.buttoner {
+  float: left;
+  display: inline;
+}
+
+.change_url {
+  display: block;
+  font-size: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border: none;
+    background-color: #E9F2F5;
+    font-family: Helvetica, Arial, sans-serif;
+    text-decoration: italic;
+  margin-bottom: 30px;
+  outline: none;
+  width: 300px;  
+}
+
+.submit {
+   display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /*padding-bottom: 50px;*/
+}
+
+.newe {
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  margin-left: 20px;
+  margin-top: 40px;
+}
+
+.write_posts {
+  margin-top: 100px;
+  width: 800px;
+  height: 500px;
+   display: block;
+   overflow: hidden;
+  /*font-size: 10px;*/
+    margin-left: auto;
+    margin-right: auto;
+  border: none;
+  background-color: #E9F2F5;
+}
+
+.write_title {
+   display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    font-size: 22px;
+  background-color: #E9F2F5;
+  width: 500px;
+}
+
+.write_text {
+   display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 15px;
+  background-color: #E9F2F5;
+  border: 1px solid grey;
+  outline: none;
+}
+
+.write_url {
+   display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+  background-color: #E9F2F5;
+  outline: none;
+  width: 400px;
+}
+
+.buttones {
+   display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+html, body {height: 100%;}
+
+#wrap {min-height: 100%;}
+
+#main {overflow:auto;
+  padding-bottom: 50px;}  /* must be same height as the footer */
+
+footer {position: relative;
+  margin-top: -50px; /* negative value of footer height */
+  height: 50px;
+  background-color: #04536B;
+  color: white;
+  clear:both;} 
+
+footer a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  margin-left: 20px;
+  margin-top: 5px;
+}  
+
+/*Opera Fix*/
+body:before {
+  content:"";
+  height:100%;
+  float:left;
+  width:0;
+  margin-top:-32767px;/
+}
+

@@ -1,0 +1,35 @@
+<div class="container">
+<h2 class="discover">Let's discover 
+
+<form action="/tag"  method="get" class="selector">
+<select name="tag" onchange='this.form.submit()'>
+<% @tag.each do |tag| %>
+<option value="<%= tag.id %>" type="submit"><%= tag.name %></option>
+<% end%>
+</select>
+<noscript><input type="submit" value="Submit"></noscript>
+</form></h2>
+</div>
+
+
+
+<div class="posts">
+<form name="input" action="/edit/<%= @post.id %>" method="post">
+<input class="change_title" type="preview" name="title" value="<%= @post.title %>">
+
+  <div class="pics">
+  <img src="<%= @post.url %>">
+</div>
+
+<input cols="50" class="change_url" type="preview" name="new_url" value="<%= @post.url %>">
+
+<textarea class="change_text" rows="10" cols="60" name="text">
+<%= @post.text %>
+</textarea>
+
+
+
+<input class="submit" type="submit" value="Update">
+</div>
+</form>
+</div>
